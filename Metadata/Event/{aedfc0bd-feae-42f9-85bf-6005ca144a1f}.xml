@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{aedfc0bd-feae-42f9-85bf-6005ca144a1f}">
+		<property name="color">
+			<value>Green Light 2</value>
+		</property>
 		<property name="name">
 			<value>AmbWind</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{7e38d393-1296-47e2-849c-58888c65dc59}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{62f0a2a9-dd8a-481e-95bb-cff7a984a135}" />
@@ -93,6 +96,9 @@
 	<object class="MixerBusPanner" id="{7e38d393-1296-47e2-849c-58888c65dc59}" />
 	<object class="SingleSound" id="{8f8246eb-faaa-41e7-b107-efdb948337db}">
 		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="length">
