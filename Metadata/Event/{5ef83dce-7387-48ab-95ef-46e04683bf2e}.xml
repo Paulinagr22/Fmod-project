@@ -6,8 +6,8 @@
 
 -To End-
 
-Looping=o
-End=1</value>
+Looping= 0
+End= 1</value>
 		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>

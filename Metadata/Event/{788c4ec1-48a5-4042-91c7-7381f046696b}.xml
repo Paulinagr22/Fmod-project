@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{788c4ec1-48a5-4042-91c7-7381f046696b}">
+		<property name="note">
+			<value>A2D one shot event where a clickling sound is used to emulate the activation of a pressure pad.
+The sound used has been modifided by the use of the nec¿xt effects:
+- Pitch modification (Down)
+- 3-EQ</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{62c48f8e-48ef-45cc-bb8f-1572fcdf528d}">
+		<property name="note">
+			<value>A 3D one shot event</value>
+		</property>
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>GunnerLigthingAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d9230e88-d80e-4e36-96e0-463973a2ab6e}</destination>
@@ -55,11 +58,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{8107cc95-0de6-45bc-b383-b0e8a3232173}" />
 	<object class="MarkerTrack" id="{bfdffd48-93ed-45a6-9c34-dba1c4f76406}" />
-	<object class="Timeline" id="{77069afc-7185-4b41-a149-b18b101f3737}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
-	</object>
+	<object class="Timeline" id="{77069afc-7185-4b41-a149-b18b101f3737}" />
 	<object class="EventMixerMaster" id="{f26fc1de-8ce6-41e2-b5a2-5a7d6b5a02f0}">
 		<relationship name="effectChain">
 			<destination>{c5d572bd-1387-4cc8-8ae1-a55b19b3c580}</destination>
@@ -80,9 +79,11 @@
 	<object class="MixerBusEffectChain" id="{c5d572bd-1387-4cc8-8ae1-a55b19b3c580}">
 		<relationship name="effects">
 			<destination>{ede6927f-4522-48d7-b3f3-6ae34e54372a}</destination>
+			<destination>{d4ab786e-0658-44a6-b82e-3a31b2d0ff24}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{97a3bb18-0978-4182-ba39-15a497359b0e}" />
 	<object class="MixerBusFader" id="{a6967886-f455-487c-b54c-1371d7630eb4}" />
 	<object class="MixerBusFader" id="{ede6927f-4522-48d7-b3f3-6ae34e54372a}" />
+	<object class="SpatialiserEffect" id="{d4ab786e-0658-44a6-b82e-3a31b2d0ff24}" />
 </objects>

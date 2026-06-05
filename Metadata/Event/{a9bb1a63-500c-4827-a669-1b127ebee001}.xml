@@ -2,7 +2,9 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a9bb1a63-500c-4827-a669-1b127ebee001}">
 		<property name="note">
-			<value>A 2D one shot event using a Multi Instrument to have a variation of sounds</value>
+			<value>A 2D one shot event using a Multi Instrument to have a variation of sounds so that when the game is played it doesn't get tiring.
+The effec used are:
+-3-EQ</value>
 		</property>
 		<property name="color">
 			<value>Purple Light 2</value>
@@ -59,7 +61,7 @@
 			<destination>{1898d693-1e3f-4346-b70c-54753135ef74}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{6d58ccbb-b144-44ed-ad14-15a3ca84bb8d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3dd4def1-fde7-489f-95b3-4704440751c7}" />
@@ -106,6 +108,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0fab1a3f-23e0-487a-a1a9-63464b6af2e1}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

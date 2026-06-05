@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{98f90c07-ba2c-4aed-84c8-845d72015e7d}">
+	<object class="AudioFile" id="{276ca540-6f8d-4603-9cc8-2958aa79c9cf}">
 		<property name="assetPath">
-			<value>Sound Assets/NatureLoop_01.wav</value>
+			<value>grunt.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>192</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>21.519395833333334</value>
+			<value>0.57469387755102042</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
