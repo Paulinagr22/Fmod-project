@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fd18634d-0c61-4d53-8fbe-d32282f1cb4e}">
+		<property name="note">
+			<value>A 3D one shot event where 2 sounds were used to create a squeaking sound to simulate the deat if the chomper and spitter:
+
+Effects used:
+-Pitch Modification
+-Multiband EQ
+-3-EQ
+-Flanger
+-Tremolo</value>
+		</property>
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>
@@ -31,7 +41,6 @@
 		<relationship name="groupTracks">
 			<destination>{09f4aec2-bb14-4a2a-9a1f-edb82f2d1fea}</destination>
 			<destination>{169025b1-dc90-4b84-b9d6-1c8c0aa8b94f}</destination>
-			<destination>{317f172f-e82a-4348-9fea-8c594fb39499}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{c74b7c78-8a5b-4805-be60-9ffd4dd374c7}</destination>
@@ -58,7 +67,7 @@
 			<destination>{465031ca-1b4a-4817-8984-23aad1c34f54}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{b30d7d38-90d1-4f68-ba59-3c0a1ed85f62}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{63c256f2-e210-410f-bc15-0bf4e868587f}" />
@@ -77,11 +86,6 @@
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{dc540691-7f54-4fb7-ac95-f4dbf61fe6a8}</destination>
-		</relationship>
-	</object>
-	<object class="GroupTrack" id="{317f172f-e82a-4348-9fea-8c594fb39499}">
-		<relationship name="mixerGroup">
-			<destination>{eda81517-b0c5-49ff-a0e5-81edf4c81270}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{c74b7c78-8a5b-4805-be60-9ffd4dd374c7}">
@@ -114,6 +118,9 @@
 		<property name="length">
 			<value>0.28615625</value>
 		</property>
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="pitch">
 			<value>13.5</value>
 		</property>
@@ -136,8 +143,14 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7838ddac-8960-48df-a4d6-ba7d2247beb6}">
+		<property name="start">
+			<value>0.12</value>
+		</property>
 		<property name="length">
 			<value>1.4000000000000001</value>
+		</property>
+		<property name="volume">
+			<value>4</value>
 		</property>
 		<property name="pitch">
 			<value>-23.5</value>
@@ -158,20 +171,6 @@
 		</relationship>
 		<relationship name="panner">
 			<destination>{7ad63dad-93d6-4769-a7d8-3e2635be4606}</destination>
-		</relationship>
-		<relationship name="output">
-			<destination>{4ce01ddf-1e60-4d9d-9a70-50bfcb9fb7d3}</destination>
-		</relationship>
-	</object>
-	<object class="EventMixerGroup" id="{eda81517-b0c5-49ff-a0e5-81edf4c81270}">
-		<property name="name">
-			<value>Audio 3</value>
-		</property>
-		<relationship name="effectChain">
-			<destination>{2fa0dccc-3194-4d4c-8b49-71c6bc6da4c8}</destination>
-		</relationship>
-		<relationship name="panner">
-			<destination>{78bfea65-fb48-49ec-a723-96ea1ea4ddb3}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{4ce01ddf-1e60-4d9d-9a70-50bfcb9fb7d3}</destination>
@@ -210,12 +209,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7ad63dad-93d6-4769-a7d8-3e2635be4606}" />
-	<object class="MixerBusEffectChain" id="{2fa0dccc-3194-4d4c-8b49-71c6bc6da4c8}">
-		<relationship name="effects">
-			<destination>{bb7ffce1-1fd0-40c4-b500-60c84325bb62}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusPanner" id="{78bfea65-fb48-49ec-a723-96ea1ea4ddb3}" />
 	<object class="MixerBusFader" id="{8b2cefa1-8e23-40cf-a0cc-7dc1fe91abfd}" />
 	<object class="MixerBusFader" id="{25864b29-bd57-4da7-b086-c66f69a06011}" />
 	<object class="MultibandEqEffect" id="{2a2cf664-73c1-438f-b0e8-3fa4d8c767d7}">
@@ -242,7 +235,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0aeafe75-afea-4c98-844f-fbcce599e355}">
 		<property name="position">
-			<value>0.28615625</value>
+			<value>0.66000000000000003</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -253,7 +246,7 @@
 	</object>
 	<object class="AutomationPoint" id="{33c7c45b-1889-470b-8202-f59f3429e929}">
 		<property name="position">
-			<value>1.4000000000000001</value>
+			<value>1.52</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -292,5 +285,4 @@
 			<value>-0.280000001</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{bb7ffce1-1fd0-40c4-b500-60c84325bb62}" />
 </objects>

@@ -2,7 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{08af6a60-37af-4c1f-a6ff-49e002baf327}">
 		<property name="note">
-			<value>A one shot event</value>
+			<value>A 2D one shot event where a part of a windchime sound was used wit some effects to get a shimmering sound for this event.
+
+Effects used:
+-Pitch modification (Down)
+-3-EQ
+-Multiband EQ
+-Volume Automation</value>
 		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
@@ -59,7 +65,7 @@
 			<destination>{2bed734b-84fb-4061-bce3-6fc960a15e14}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{4ddf0a94-7396-4fb5-b578-df69ed33e890}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1efcffad-c078-4915-b8e1-ba404d8c72ca}" />

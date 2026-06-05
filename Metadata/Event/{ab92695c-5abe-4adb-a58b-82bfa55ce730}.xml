@@ -66,7 +66,7 @@ Shield Up= 1</value>
 			<destination>{df41bd04-b5b2-4fbc-90eb-4b86c706390e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{3fcee2b8-e982-4f48-a102-a8e3e0095dad}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{532f50d1-2e5e-43d6-a4bc-bab3ae8fbb41}" />

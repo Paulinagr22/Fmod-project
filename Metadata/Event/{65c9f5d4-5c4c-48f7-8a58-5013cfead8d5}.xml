@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{65c9f5d4-5c4c-48f7-8a58-5013cfead8d5}">
+		<property name="note">
+			<value>A 2D one shot event where a bird sound was pitched down and used some fade curves  to get the desired sound.
+
+Effects used: 
+-3-EQ
+-Multiband EQ 
+-Volume Automation</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>
@@ -56,7 +64,7 @@
 			<destination>{0118d500-8aad-479e-bf85-b8e432af1ae7}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{3fae602f-8f3f-494f-a06b-025291d70391}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3456e05f-641e-455d-b08c-5261e27fc879}" />

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e1856e13-38b7-4891-b672-a7166a5ed87b}">
+		<property name="note">
+			<value>A 2D one shot event where 3 soun d where used to compose a door openning sound.
+
+Effects used:
+-3-EQ
+-Pitch modification
+-Multiband EQ
+-Rebervb
+-Volume Automation
+
+</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
 		</property>
@@ -57,7 +69,7 @@
 			<destination>{72fddf51-707b-4c89-89a0-2dc31587bd93}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{4ddf0a94-7396-4fb5-b578-df69ed33e890}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{71435a4f-baa8-4922-91a3-0a0f174b6055}" />

@@ -2,7 +2,12 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a27acf21-794f-4022-aec2-734d4704bce8}">
 		<property name="note">
-			<value>A 3D one shot event</value>
+			<value>A 3D one shot event where a welding sound was ised for the laser beam attack of the enemy.
+
+Effects used:
+-3-EQ
+-Multiband EQ
+-Fade curves</value>
 		</property>
 		<property name="color">
 			<value>Red Light 2</value>
@@ -11,7 +16,7 @@
 			<value>GunnerLaserAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d9230e88-d80e-4e36-96e0-463973a2ab6e}</destination>
@@ -37,6 +42,9 @@
 		<relationship name="timeline">
 			<destination>{f95faebd-ac78-4d69-ab63-d334995c1bd2}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{26f7bf25-f94a-4879-b458-fbc55fe5d9ef}">
 		<relationship name="masterBus">
@@ -56,7 +64,7 @@
 			<destination>{9bb8a558-b0e1-4bad-ad8c-23d3db32bada}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{3fcee2b8-e982-4f48-a102-a8e3e0095dad}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ad7cb87c-2aa0-4606-b4a0-f1c428cb2194}" />
@@ -93,7 +101,7 @@
 	<object class="MixerBusPanner" id="{9bb8a558-b0e1-4bad-ad8c-23d3db32bada}" />
 	<object class="SingleSound" id="{d44de5f9-6b3e-496a-a630-8d0895b5f808}">
 		<property name="length">
-			<value>11.640000000000001</value>
+			<value>5</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{d1b25f52-eb21-4012-9d4c-728e818e3d40}</destination>
@@ -119,6 +127,7 @@
 	<object class="MixerBusEffectChain" id="{796c6591-e31d-4094-911f-578914e68a6f}">
 		<relationship name="effects">
 			<destination>{30aeded3-52dc-4fa2-bbfb-020f071d8d54}</destination>
+			<destination>{30f93a0f-49cf-4f81-988f-a45ed8017ee4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{21a05f1e-e18c-4d64-bbda-5be6006fe0b4}" />
@@ -140,9 +149,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{e4a240ea-4954-498c-9279-23b659039623}" />
 	<object class="MixerBusFader" id="{30aeded3-52dc-4fa2-bbfb-020f071d8d54}" />
+	<object class="SpatialiserEffect" id="{30f93a0f-49cf-4f81-988f-a45ed8017ee4}" />
 	<object class="AutomationPoint" id="{daac6c18-ea23-4cd1-834e-ba40b4637579}">
 		<property name="position">
-			<value>7.6000000000000005</value>
+			<value>2</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -153,7 +163,7 @@
 	</object>
 	<object class="AutomationPoint" id="{15f577d8-af3d-4b9f-b828-15fa44d8e612}">
 		<property name="position">
-			<value>11.640000000000001</value>
+			<value>5</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -168,7 +178,7 @@
 			<value>-13.5</value>
 		</property>
 		<property name="highGain">
-			<value>-6.5</value>
+			<value>-13</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{198da64d-f3fa-4cd7-a131-db0047cacbb7}">

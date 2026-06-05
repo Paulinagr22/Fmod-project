@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{398b2db7-cde5-4c1b-9925-93fe3f4ca3fa}">
+		<property name="note">
+			<value>A 3D one shot event where with the use of a multi instrument every time the sound plays we have a different sound.
+
+Effects used:
+-3-EQ
+-Reverb</value>
+		</property>
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>
@@ -56,7 +63,7 @@
 			<destination>{2514c0c9-4325-4614-9e53-17ddd539eca6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{66761f0e-4e30-4e22-afb0-0847f30d2933}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8b7ed980-429a-43eb-b90a-c7e4ae603909}" />
@@ -75,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4277af52-64c3-4f74-af86-23ab22cc6e4b}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{277fa088-d8f5-40f1-a04d-879ccf522817}</destination>
 		</relationship>

@@ -3,7 +3,7 @@
 	<object class="Event" id="{a9bb1a63-500c-4827-a669-1b127ebee001}">
 		<property name="note">
 			<value>A 2D one shot event using a Multi Instrument to have a variation of sounds so that when the game is played it doesn't get tiring.
-The effec used are:
+The effects used are:
 -3-EQ</value>
 		</property>
 		<property name="color">
@@ -61,7 +61,7 @@ The effec used are:
 			<destination>{1898d693-1e3f-4346-b70c-54753135ef74}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6d58ccbb-b144-44ed-ad14-15a3ca84bb8d}</destination>
+			<destination>{edc64110-0c4e-4980-9efa-03a973c4b112}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3dd4def1-fde7-489f-95b3-4704440751c7}" />

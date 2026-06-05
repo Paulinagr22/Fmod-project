@@ -2,7 +2,12 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f9a786c0-36ae-4520-98bc-25ef47bf737e}">
 		<property name="note">
-			<value>A 3D one shot</value>
+			<value>A 3D one shot event where 2 sounds where used  to make the colapse of a rock wall the first one is the hit from the weapon and the second ones is the debris.
+
+Effects used:
+-3-EQ
+-Pitch Modification
+-Multiband EQ</value>
 		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
@@ -11,7 +16,7 @@
 			<value>DestructableWall</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4af3c26e-a5d7-43f1-849b-2c9212e15c85}</destination>
@@ -60,7 +65,7 @@
 			<destination>{7eec0ed2-22ab-419d-b9b9-2d994f55ae6f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{4ddf0a94-7396-4fb5-b578-df69ed33e890}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9bf23ceb-21ce-49d0-a613-6ea1c6cb3648}" />
@@ -173,6 +178,7 @@
 		<relationship name="effects">
 			<destination>{a6afa0e5-db94-4b05-b59f-5ee1ec6aa35c}</destination>
 			<destination>{584fefe2-c08c-40dc-8a19-7e236a6b565a}</destination>
+			<destination>{468ae34c-21ab-479f-8050-a605f6528272}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2465f55c-0fd4-4358-9c4c-d2cf3d9920c1}" />
@@ -227,6 +233,7 @@
 			<value>2.27874875</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{468ae34c-21ab-479f-8050-a605f6528272}" />
 	<object class="AutomationPoint" id="{0a6a133c-abab-44b7-8d12-9d99f15856e2}">
 		<property name="position">
 			<value>0.099999999999999922</value>

@@ -2,7 +2,12 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{35cf344a-8acd-47d9-a86a-7671257ceac6}">
 		<property name="note">
-			<value>A 3D one shot event where there are 3 sound used to  create </value>
+			<value>A 3D one shot event where there are 3 sound used to  create a biting sound and th clattering of the teeth.
+
+Effects used:
+-Pitch Modification
+-3-EQ
+-Multiband EQ</value>
 		</property>
 		<property name="color">
 			<value>Red Light 2</value>
@@ -61,7 +66,7 @@
 			<destination>{978e7137-3bc1-4be5-b88e-5b35b71f4435}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{b30d7d38-90d1-4f68-ba59-3c0a1ed85f62}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a0921bd9-6925-405e-bf31-53775db0ded9}" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{b30d7d38-90d1-4f68-ba59-3c0a1ed85f62}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="name">
+			<value>Chomper_Spitter</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0d37e272-e5c7-45bb-bf99-e76b601beb98}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1f00c328-b285-43e9-a4c1-df72fb0f39d6}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0d37e272-e5c7-45bb-bf99-e76b601beb98}">
+		<relationship name="effects">
+			<destination>{e33c7925-ea40-430b-9844-8550d4d63d63}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1f00c328-b285-43e9-a4c1-df72fb0f39d6}" />
+	<object class="MixerBusFader" id="{e33c7925-ea40-430b-9844-8550d4d63d63}" />
+</objects>

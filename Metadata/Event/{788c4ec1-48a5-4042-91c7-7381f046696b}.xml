@@ -3,7 +3,7 @@
 	<object class="Event" id="{788c4ec1-48a5-4042-91c7-7381f046696b}">
 		<property name="note">
 			<value>A2D one shot event where a clickling sound is used to emulate the activation of a pressure pad.
-The sound used has been modifided by the use of the nec¿xt effects:
+The sound used has been modifided by the use of the next effects:
 - Pitch modification (Down)
 - 3-EQ</value>
 		</property>
@@ -62,7 +62,7 @@ The sound used has been modifided by the use of the nec¿xt effects:
 			<destination>{3c9d79b6-f93e-4335-8195-c7f6e5c06492}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{4ddf0a94-7396-4fb5-b578-df69ed33e890}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{68fb6d18-9ae1-41d0-8941-b413dd8c129d}" />

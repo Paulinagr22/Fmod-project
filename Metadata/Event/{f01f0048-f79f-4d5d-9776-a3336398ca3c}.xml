@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f01f0048-f79f-4d5d-9776-a3336398ca3c}">
+		<property name="note">
+			<value>A 3D loop event where there are 2 sounds to make a bubbling sound with a Loop region to keep playing the sound.
+
+Effects used:
+-3-EQ
+-Distortion
+-Multiband EQ
+-Pitch Modification</value>
+		</property>
 		<property name="color">
 			<value>Green Light 2</value>
 		</property>
@@ -8,7 +17,7 @@
 			<value>AcidPoolLoop</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f84a0c22-c585-4ca0-9caa-15500dc1155b}</destination>
@@ -57,7 +66,7 @@
 			<destination>{762d14c9-a4e6-4a96-888c-641d29a8b877}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{a90f1f39-ed7d-4f18-93e1-4ea827624d4b}</destination>
+			<destination>{62ada9b4-0d42-4dfa-8aff-6f0a8b666a3d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0c80b7b2-df11-4354-a9d1-c840601eecdd}" />
@@ -162,10 +171,10 @@
 	</object>
 	<object class="LoopRegion" id="{af4904ee-8caa-4f7a-aedc-37b04f9dde37}">
 		<property name="position">
-			<value>0.050000000000000003</value>
+			<value>0</value>
 		</property>
 		<property name="length">
-			<value>3.3624999999999998</value>
+			<value>3.4124999999999996</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{61d4680c-f362-47df-a7b0-15fd481ecf2f}</destination>
@@ -178,6 +187,7 @@
 		<relationship name="effects">
 			<destination>{a228534b-5961-4219-8086-6bc2ac0dd004}</destination>
 			<destination>{a93880a5-1cea-46cf-bf9e-d14f28613afe}</destination>
+			<destination>{40da37de-4340-42d6-9d5a-4bae836649db}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{32c71f94-b4a4-4175-aac3-467755624e34}" />
@@ -205,6 +215,14 @@
 		</property>
 		<property name="highGain">
 			<value>-11.5</value>
+		</property>
+	</object>
+	<object class="SpatialiserEffect" id="{40da37de-4340-42d6-9d5a-4bae836649db}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>17.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b4bbab9d-b083-48ba-a339-1cee181a9957}" />

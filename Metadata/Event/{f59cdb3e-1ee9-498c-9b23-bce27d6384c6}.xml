@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f59cdb3e-1ee9-498c-9b23-bce27d6384c6}">
+		<property name="note">
+			<value>A  3D looping event where the l¿sound uses a loop region to keep the sound playing.</value>
+		</property>
 		<property name="color">
 			<value>Green Light 2</value>
 		</property>

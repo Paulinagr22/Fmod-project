@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{03479668-2c40-4d66-9d42-55963ab04fbf}">
+		<property name="note">
+			<value>A 2D one shot event where with a multi instrument we get a different sound every time it plays to have more variety and for it to not be tiring. Some Fade curves were used.</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 2</value>
 		</property>
@@ -56,7 +59,7 @@
 			<destination>{82766d8e-1572-4cdf-90a5-0b1e2a5ea1ae}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6d58ccbb-b144-44ed-ad14-15a3ca84bb8d}</destination>
+			<destination>{4ae407aa-ad04-48ae-92a6-f3afd5028de0}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6c2e480a-0b38-45e3-afbb-6a740e18109e}" />
@@ -251,7 +254,7 @@
 			<value>-5.5</value>
 		</property>
 		<property name="highGain">
-			<value>9</value>
+			<value>5</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{398afd2d-1e5d-41f7-9d3f-68227fc5ba20}">

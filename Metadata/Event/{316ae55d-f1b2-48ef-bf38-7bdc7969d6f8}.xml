@@ -69,7 +69,7 @@ Using a Parameter Sheet, with it  being User:Labeled, named Surface, to change t
 			<destination>{8de43b07-28fd-4364-8529-2fa7244d763e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6d58ccbb-b144-44ed-ad14-15a3ca84bb8d}</destination>
+			<destination>{edc64110-0c4e-4980-9efa-03a973c4b112}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6f8ca7f3-44e8-40cf-be84-426153394b23}" />

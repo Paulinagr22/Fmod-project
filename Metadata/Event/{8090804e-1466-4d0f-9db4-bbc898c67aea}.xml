@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8090804e-1466-4d0f-9db4-bbc898c67aea}">
-		<property name="note" />
+		<property name="note">
+			<value>A 2D one shot event where a voiceover of a grunt was modified with some effects that plays when the playes suffers damage.
+
+Effect used:
+-3-EQ
+-Multiband EQ</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 2</value>
 		</property>

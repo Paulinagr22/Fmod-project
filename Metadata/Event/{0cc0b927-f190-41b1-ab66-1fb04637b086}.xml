@@ -2,7 +2,12 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0cc0b927-f190-41b1-ab66-1fb04637b086}">
 		<property name="note">
-			<value>A D one shot event where</value>
+			<value>A D one shot event where the sound of a rock hitting another rock was used to make a low clicking sound.
+
+Effects used:
+-Pitch modification (Down)
+-3-EQ
+-Multiband EQ</value>
 		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
@@ -59,7 +64,7 @@
 			<destination>{2f4a4b63-06b4-4ad4-8da2-d61ffbae4f09}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{4ddf0a94-7396-4fb5-b578-df69ed33e890}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{46b4817a-99fa-4460-b46d-b68a77193528}" />

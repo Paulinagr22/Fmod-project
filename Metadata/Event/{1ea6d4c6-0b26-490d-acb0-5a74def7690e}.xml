@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1ea6d4c6-0b26-490d-acb0-5a74def7690e}">
+		<property name="note">
+			<value>A 3D one shot event wher 3 sounds were used to majke a splashing sound for the acid pool when a object feel into it.
+
+Effects used:
+-3-EQ
+-Pitch modification
+-Multiband EQ
+-Fade curves
+</value>
+		</property>
 		<property name="color">
 			<value>Green Light 2</value>
 		</property>
@@ -58,10 +68,14 @@
 			<destination>{13412b35-c25a-4cb8-aa3c-e56e2a7d2406}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6af0ece8-2b5c-47e6-85fa-2e5b3a837e90}</destination>
+			<destination>{e62fa90b-d0ad-4a30-b29b-7fa27f9ff60f}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{5b87ac8b-b734-4227-a07d-8debafd7d3a3}" />
+	<object class="EventAutomatableProperties" id="{5b87ac8b-b734-4227-a07d-8debafd7d3a3}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{4dc7729a-820b-4322-bcab-06c97b4345dd}" />
 	<object class="GroupTrack" id="{b2beba33-96b2-4c19-8ec1-b5a40389fbff}">
 		<relationship name="modules">

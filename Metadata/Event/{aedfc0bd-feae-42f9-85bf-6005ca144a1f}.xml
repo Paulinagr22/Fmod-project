@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{aedfc0bd-feae-42f9-85bf-6005ca144a1f}">
 		<property name="note">
-			<value>A 2D one soht event where </value>
+			<value>A 2D Loop event where a wind loop and a bird loop are used to make an outside ambiance for the out door zones of the game </value>
 		</property>
 		<property name="color">
 			<value>Green Light 2</value>
@@ -120,7 +120,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{695cced7-bcc1-4ec1-ac48-d4334ecda9ac}">
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-11</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
