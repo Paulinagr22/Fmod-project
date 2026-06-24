@@ -115,6 +115,9 @@ Effects used:
 		<property name="timelockedOffset">
 			<value>1.2926215282765907</value>
 		</property>
+		<property name="volume">
+			<value>6.5</value>
+		</property>
 		<property name="pitch">
 			<value>-6.5</value>
 		</property>
@@ -263,10 +266,10 @@ Effects used:
 	</object>
 	<object class="AutomationPoint" id="{66c80365-2914-481b-a994-6978b0ed7891}">
 		<property name="position">
-			<value>0.5</value>
+			<value>0.57999999999999996</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>6</value>
 		</property>
 		<property name="curveShape">
 			<value>0.0539503321</value>

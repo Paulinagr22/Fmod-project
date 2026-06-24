@@ -2,7 +2,12 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f59cdb3e-1ee9-498c-9b23-bce27d6384c6}">
 		<property name="note">
-			<value>A  3D looping event where the l¿sound uses a loop region to keep the sound playing.</value>
+			<value>A  3D looping event where the sound uses a loop region to keep the sound playing.
+
+Effects used:
+-Pitch modification
+-3-EQ
+</value>
 		</property>
 		<property name="color">
 			<value>Green Light 2</value>
@@ -104,6 +109,9 @@
 		<property name="length">
 			<value>3</value>
 		</property>
+		<property name="volume">
+			<value>-14.5</value>
+		</property>
 		<property name="pitch">
 			<value>-12.5</value>
 		</property>
@@ -166,13 +174,13 @@
 	<object class="MixerBusFader" id="{c9f37c31-93bb-4ed4-a265-0afd32ec7c14}" />
 	<object class="ThreeEQEffect" id="{2f6558b8-8b17-49da-9288-6ebaa3f442ab}">
 		<property name="lowGain">
-			<value>-15.5</value>
-		</property>
-		<property name="midGain">
 			<value>-10</value>
 		</property>
+		<property name="midGain">
+			<value>-14.5</value>
+		</property>
 		<property name="highGain">
-			<value>-36</value>
+			<value>-48</value>
 		</property>
 	</object>
 </objects>
